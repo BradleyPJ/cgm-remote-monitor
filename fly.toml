@@ -7,6 +7,11 @@ app = 'brad-t1d'
 primary_region = 'lhr'
 processes = []
 
+[[VM]]
+  memory='256'
+  cpu_kind='shared'
+  cpus = 1 
+
 [env]
 
 [[services]]
